@@ -15,16 +15,18 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #0387b1;
 }
-
+.cont{
+  color: black;
+}
 a {
-  color: #1260cc;
+  color: #E4491C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #003245;
+  color: #E4491C;
   text-decoration: none;
 }
 
@@ -55,7 +57,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #1260cc;
+  color: #E4491C;
   text-transform: uppercase;
 }
 
@@ -65,7 +67,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color:  #1260cc;
+  color:  #1c30e4;
 }
 
 @media (max-width: 768px) {
@@ -80,7 +82,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background:  #1260cc;
+  background:  #0387B1;
   min-height: 40px;
   margin-top: 82px;
   color: #ffffff;
@@ -136,7 +138,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background:  #1260cc;
+  background:  #E4491C;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -150,7 +152,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #1260cc;
+  background: #E4491C;
   color: #fff;
 }
 
@@ -188,15 +190,16 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 50px;
+  margin-right: 9px;
+
 }
 
 .header .logo span {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #1260cc;
+  color: #1c3ae4;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -232,7 +235,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color:  #1260cc;
+  color:  #E4491C;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -248,12 +251,12 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #1260cc;
+  color: #E4491C;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #f17341;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -1685,7 +1688,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form  {
   background: #4154f1;
   border: 0;
   padding: 10px 30px;
@@ -2220,14 +2223,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #0387B1;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
+  background: #e1ecff;
   border-top: 1px solid #e1ecff;
 }
 
@@ -2265,7 +2268,7 @@ section {
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #4154f1;
+  background: #0387B1;
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
@@ -2276,7 +2279,7 @@ section {
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: #0387B1 url(../img/footer-bg.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
