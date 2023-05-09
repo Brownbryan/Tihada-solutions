@@ -286,3 +286,11 @@
   new PureCounter();
 
 })();
+ 
+let docTitle = document.title;
+window.addEventListener("blur",()=>{
+  document.title = "Thanks for Visiting Tihada ";
+});
+window.addEventListener("focus",()=>{
+  document.title = docTitle;
+});
